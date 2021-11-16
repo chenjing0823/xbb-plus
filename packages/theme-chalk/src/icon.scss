@@ -1,0 +1,69 @@
+@use './mixins/mixin.scss' as *;
+
+@font-face {
+  font-family: "xbb-ui-icons"; /* Project id 2900485 */
+  src: url('./fonts/iconfont.woff2') format('woff2'),
+       url('./fonts/iconfont.woff') format('woff'),
+       url('./fonts/iconfont.ttf') format('truetype');
+}
+
+[class^='#{$namespace}-icon'],[class*='#{$namespace}-icon'] {
+  font-family: "xbb-ui-icons" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.#{$namespace}-icon-duihao:before {
+  content: "\e6ca";
+}
+
+.#{$namespace}-icon-bumengaikuang:before {
+  content: "\e60d";
+}
+
+.#{$namespace}-icon-jishuzhuanyi:before {
+  content: "\e60e";
+}
+
+.#{$namespace}-icon-kejituandui:before {
+  content: "\e60f";
+}
+
+.#{$namespace}-icon-kexuejishu:before {
+  content: "\e610";
+}
+
+.#{$namespace}-icon-tongzhigonggao:before {
+  content: "\e611";
+}
+
+.#{$namespace}-icon-kexuejishu2:before {
+  content: "\e612";
+}
+
+.#{$namespace}-icon-xiazaizhongxin:before {
+  content: "\e613";
+}
+
+.#{$namespace}-icon-xinwendongtai:before {
+  content: "\e614";
+}
+
+.#{$namespace}-icon-xueshujiangzuo:before {
+  content: "\e615";
+}
+
+.#{$namespace}-icon-yewuliucheng:before {
+  content: "\e616";
+}
+
+.#{$namespace}-icon-youqinglianjie:before {
+  content: "\e617";
+}
+
+.#{$namespace}-icon-zhengceguizhang:before {
+  content: "\e618";
+}
+
