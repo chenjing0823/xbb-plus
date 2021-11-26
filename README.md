@@ -1,10 +1,19 @@
-<!--
- * @Author: jing.chen
- * @Date: 2021-11-01 18:52:20
- * @LastEditors: jing.chen
- * @LastEditTime: 2021-11-01 19:21:09
- * @Description: 
--->
+## 项目说明
+安装依赖
+```
+pnpm install
+```
+
+项目打包
+```
+npm run build
+```
+
+项目静态页面测试
+```
+npm run dev
+```
+## 文件说明
 - build 负责打包的文件夹  gulp 编译ts， 打包样式， 打包单文件组件
 - dist 就是我们最终生成的打包结果
 - packages 放着我们组件的代码  monorepo
