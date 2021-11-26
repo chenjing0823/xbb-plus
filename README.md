@@ -9,7 +9,10 @@ pnpm install
 npm run build
 ```
 
-项目静态页面测试
+项目静态页面测试，第一次启动需要先进入play目录
+```
+npm install
+```
 ```
 npm run dev
 ```
