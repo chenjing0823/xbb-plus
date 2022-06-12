@@ -22,7 +22,7 @@ export default series(
     withTaskName("clean", async () => run('rm -rf ./dist')),
     parallel(
         withTaskName("buildPackages", () =>
-            run("pnpm run --filter ./packages --parallel build")
+            run("pnpm run --filter ./packages/* --parallel build")
         ),
         withTaskName("buildFullComponent", () =>
             run("pnpm run build buildFullComponent")
